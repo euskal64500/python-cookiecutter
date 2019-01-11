@@ -1,0 +1,8 @@
+{
+  "project_name": "python_project",
+  "author": "First Last",
+  "email": "first_last@provider.com",
+  "github_username": "username",
+  "maintainer": "{{cookiecutter.github_username}}<{{cookiecutter.email}}>",
+  "command_line_interface": ["Click", "No command-line interface"]
+}

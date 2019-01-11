@@ -1,0 +1,4 @@
+{%- if cookiecutter.command_line_interface|lower == 'click' %}
+click>=6.7, <7.0
+{%- endif %}
+wheel>=0.29.0, <1.0

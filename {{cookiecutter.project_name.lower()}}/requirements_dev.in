@@ -1,0 +1,12 @@
+bumpversion>=0.5.3, <1.0
+flake8>=3.5.0, <4.0
+coverage>=4.1, <5.0
+pip-tools>=2.0.2, <3.0
+pylint>=1.8.2, <2.0
+pytest>=4.0, <5.0
+pytest-runner>=4.2, <5.0
+sphinxcontrib-napoleon>=0.6.1, <1.0
+yapf>=0.20.1, <1.0
+watchdog>=0.8.3, <1.0
+Sphinx>=1.4.8, <2.0
+tox>=3.0, <4.0 

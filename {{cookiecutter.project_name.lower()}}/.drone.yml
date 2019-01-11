@@ -1,0 +1,7 @@
+pipeline:
+  build:
+    image: python:3.6.5-jessie
+    pull: true
+    commands:
+      - export PYTHONPATH=$DRONE_DIR
+      - sh test.sh

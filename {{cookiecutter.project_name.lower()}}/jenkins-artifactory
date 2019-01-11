@@ -1,0 +1,19 @@
+#!/usr/bin/env groovy
+
+pipeline {
+  agent any
+  stages {
+    stage('Deploy Package') {
+      steps {
+        sh """
+            virtualenv venv --python=/usr/bin/python3.6
+            . venv/bin/activate
+            python --version
+            echo 'Deploying package...'
+            bash deploy.sh
+            deactivate
+        """
+      }
+    }
+  }
+}
